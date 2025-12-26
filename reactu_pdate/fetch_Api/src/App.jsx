@@ -5,8 +5,8 @@ import Recipi from './Recipi'
 const App=()=>{
     return(
         <div>
-        {/* <Products/> */}
-        {/* <FetchApi/> */}
+        <Products/> 
+        <FetchApi/> 
         <Recipi/>
         </div>
     )
