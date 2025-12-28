@@ -18,7 +18,7 @@ const App=()=>{
        <Route path='/line/:id'element={<Show/>}/>   */}
        
         <Route path='/' element={<ShowBakes/>}/>
-        <Route path='/cake' elements={<Bakes/>}/>
+        <Route path='/cake' element={<Bakes/>}/>
 
        </Routes>
     )

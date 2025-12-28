@@ -14,7 +14,7 @@ const ShowBakes=()=>{
                 <div>{e.id}</div>
                 <div>variety:{e.cakeName}</div>
                 <div>price:{e.price}</div>
-                <Link to='/cake'  state={{upcake:cake}}>click me more</Link>
+                <Link to='/cake'  state={{upcake:e}}>click me more</Link>
                 </div>
 
             ))}
