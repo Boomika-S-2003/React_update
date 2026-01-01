@@ -4,7 +4,7 @@ import Stoptime from "./Stoptime"
 const App=()=>{
     return(
         <>
-        {/* <Counter/> */}
+         <Counter/> 
         <Stoptime/>
 
         </>
