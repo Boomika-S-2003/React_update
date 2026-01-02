@@ -1,9 +1,13 @@
-import Form_handling from "./Form_handling"
+import Form_handling from "./components/Form_handling"
+import RealRef from "./components/RealRef"
+import Ref from "./components/Ref"
 
 const App=()=>{
     return(
       <>
-      <Form_handling/>
+      {/* <Form_handling/> */}
+      {/* <RealRef/> */}
+      <Ref/>
       </>
     )
 }
