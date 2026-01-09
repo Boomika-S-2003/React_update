@@ -1,14 +1,17 @@
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import CounterProvider from "./context/CounterProvider"
+import Providertheme from "./context/Providertheme"
 
 const App=()=>{
     return(
         <>
-        <CounterProvider>
+        <Providertheme>
             <Navbar/>
-            <Banner/>
-        </CounterProvider>
+            {/* <Banner/> */}
+            <Footer/>
+        </Providertheme>
         </>
     )
 }
